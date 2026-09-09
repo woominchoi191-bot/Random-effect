@@ -3,4 +3,16 @@ version: 1.0.0
 main: me.woomin.randomportion.RandomPortion
 api-version: '26.2'
 author: woomin
-description: RandomPortion Minecraft plugin
+description: Random potion effect plugin
+
+commands:
+  randomportion:
+    description: RandomPortion 기능을 켜거나 끕니다.
+    usage: /randomportion <on|off>
+    aliases: [rp]
+    permission: randomportion.admin
+
+permissions:
+  randomportion.admin:
+    description: RandomPortion 관리 명령어 권한
+    default: op
