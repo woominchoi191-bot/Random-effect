@@ -1,0 +1,6 @@
+name: RandomPortion
+version: 1.0.0
+main: me.woomin.randomportion.RandomPortion
+api-version: '26.2'
+author: woomin
+description: RandomPortion Minecraft plugin
